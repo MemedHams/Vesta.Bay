@@ -187,7 +187,7 @@ MANTIDIFY(/obj/machinery/door/airlock/external/bolted, "mantid airlock", "door")
 	icon_state = "core1"
 	color = COLOR_PURPLE
 	var/on = TRUE
-	var/output_power = 9000 KILOWATTS
+	var/output_power = 45 MEGAWATTS //As it was on good old hest. If you're not out-powering a small supernova, why even be an advanced alien species?
 	var/image/field_image
 
 /obj/machinery/power/ascent_reactor/attack_hand(mob/user)
